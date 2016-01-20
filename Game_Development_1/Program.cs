@@ -21,9 +21,9 @@ namespace Game_Development_1
             // Ask to enter age as "string"
             Console.WriteLine("Please enter your age");
             age = int.Parse(Console.ReadLine());
-                
+             
             // Validate age if pass the requirements
-            if(age < 18)
+            if (age < 18)
             {
                 Console.WriteLine("You are too young to play"); 
             }
@@ -32,8 +32,20 @@ namespace Game_Development_1
                 Console.WriteLine("You are old enough to play");
             } 
 
+            // Calling a function
+            DoStuffWithAge();
+
             // Press any key to exit
             Console.ReadLine();
+        }
+
+
+        /**
+        * function without parameter
+        */
+        static void DoStuffWithAge ()
+        {
+            Console.WriteLine("Outpustuff from function");
         }
     }
 }
