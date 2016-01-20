@@ -35,6 +35,12 @@ namespace Game_Development_1
             // Calling a function
             DoStuffWithAge(age);
 
+            // Calling a return function 
+            age = getNumber(); 
+            Console.WriteLine("Your new age " + age);
+
+
+
             // Press any key to exit
             Console.ReadLine();
         }
@@ -46,6 +52,11 @@ namespace Game_Development_1
         static void DoStuffWithAge (int age)
         {
             Console.WriteLine("You are inside the function and your age is " + age);
+        }
+
+        static int getNumber()
+        {
+            return 50;
         }
     }
 }
