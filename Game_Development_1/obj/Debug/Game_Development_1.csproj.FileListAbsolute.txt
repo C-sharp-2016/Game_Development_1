@@ -1,0 +1,5 @@
+c:\users\jesus\documents\visual studio 2015\Projects\Game_Development_1\Game_Development_1\bin\Debug\Game_Development_1.exe.config
+c:\users\jesus\documents\visual studio 2015\Projects\Game_Development_1\Game_Development_1\bin\Debug\Game_Development_1.exe
+c:\users\jesus\documents\visual studio 2015\Projects\Game_Development_1\Game_Development_1\bin\Debug\Game_Development_1.pdb
+c:\users\jesus\documents\visual studio 2015\Projects\Game_Development_1\Game_Development_1\obj\Debug\Game_Development_1.exe
+c:\users\jesus\documents\visual studio 2015\Projects\Game_Development_1\Game_Development_1\obj\Debug\Game_Development_1.pdb
