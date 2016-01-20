@@ -12,13 +12,27 @@ namespace Game_Development_1
         {
             // Declare variable
             string name;
+            int age;
 
             // Ask to enter name as "string"
             Console.WriteLine("Please enter your name");
             name = Console.ReadLine();
 
-            // Print name entered
-            Console.WriteLine("Your name is " + name);
+            // Ask to enter age as "string"
+            Console.WriteLine("Please enter your age");
+            age = int.Parse(Console.ReadLine());
+                
+            // Validate age if pass the requirements
+            if(age < 18)
+            {
+                Console.WriteLine("You are too young to play"); 
+            }
+            else
+            {
+                Console.WriteLine("You are old enough to play");
+            } 
+
+            // Press any key to exit
             Console.ReadLine();
         }
     }
