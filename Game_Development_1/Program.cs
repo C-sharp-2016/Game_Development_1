@@ -33,7 +33,7 @@ namespace Game_Development_1
             } 
 
             // Calling a function
-            DoStuffWithAge();
+            DoStuffWithAge(age);
 
             // Press any key to exit
             Console.ReadLine();
@@ -43,9 +43,9 @@ namespace Game_Development_1
         /**
         * function without parameter
         */
-        static void DoStuffWithAge ()
+        static void DoStuffWithAge (int age)
         {
-            Console.WriteLine("Outpustuff from function");
+            Console.WriteLine("You are inside the function and your age is " + age);
         }
     }
 }
